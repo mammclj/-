@@ -38,3 +38,31 @@ Hi mammclj! You've successfully authenticated, but GitHub does not provide shell
 
 akira@DESKTOP-E6HAGOF MINGW64 ~/Desktop
 $
+
+akira@DESKTOP-E6HAGOF MINGW64 /f/resources/java/workspaces/GIt/resources (master)
+$ git add .
+
+akira@DESKTOP-E6HAGOF MINGW64 /f/resources/java/workspaces/GIt/resources (master)
+$ git remote add origin https://github.com/mammclj/summaries.git
+
+akira@DESKTOP-E6HAGOF MINGW64 /f/resources/java/workspaces/GIt/resources (master)
+$ git commit -m "提交"
+[master (root-commit) 6dcaeb6] 提交
+ 1 file changed, 40 insertions(+)
+ create mode 100644 "Git\350\256\276\347\275\256\347\233\270\345\205\263.txt"
+
+akira@DESKTOP-E6HAGOF MINGW64 /f/resources/java/workspaces/GIt/resources (master)
+$ git push -u origin master
+libpng warning: iCCP: cHRM chunk does not match sRGB
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 965 bytes | 965.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/mammclj/summaries.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+akira@DESKTOP-E6HAGOF MINGW64 /f/resources/java/workspaces/GIt/resources (master)
+$
