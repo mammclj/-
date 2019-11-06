@@ -1,0 +1,40 @@
+akira@DESKTOP-E6HAGOF MINGW64 ~/Desktop
+$ git config --global user.name 'mammclj'
+
+akira@DESKTOP-E6HAGOF MINGW64 ~/Desktop
+$ git config --global user.email 'xxxxx@qq.com'
+
+akira@DESKTOP-E6HAGOF MINGW64 ~/Desktop
+$ ssh-keygen -t rsa -C xxxxxx@qq.com
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/akira/.ssh/id_rsa):
+Created directory '/c/Users/akira/.ssh'.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/akira/.ssh/id_rsa.
+Your public key has been saved in /c/Users/akira/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:6NXhmVdN+E/1OrWEITkr2dBJjqwFQ3JIitGAzoTr5U8 869840420@qq.com
+The key's randomart image is:
++---[RSA 3072]----+
+|ooo .oo=  o.o  ..|
+|o.o...o +.o* ..o.|
+|+o .     +=.+ +.+|
+|.o .   .o= * o .=|
+|. o   ..S * . .+o|
+| . . E .   .  o..|
+|    o .        . |
+|     .           |
+|                 |
++----[SHA256]-----+
+
+akira@DESKTOP-E6HAGOF MINGW64 ~/Desktop
+$ ssh -T git@github.com
+The authenticity of host 'github.com (13.229.188.59)' can't be established.
+RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com,13.229.188.59' (RSA) to the list of known hosts.
+Hi mammclj! You've successfully authenticated, but GitHub does not provide shell access.
+
+akira@DESKTOP-E6HAGOF MINGW64 ~/Desktop
+$
